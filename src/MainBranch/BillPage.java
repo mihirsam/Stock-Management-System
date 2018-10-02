@@ -34,6 +34,11 @@ public class BillPage
             Label custNameLabel = new Label("Customer Name : "+ custName);
             Label custNoLabel = new Label("Customer Phone Number : "+custNo);
             Label dateLabel = new Label("Date : "+ today);
+
+            custNameLabel.setId("title-label");
+            custNoLabel.setId("title-label");
+            dateLabel.setId("title-label");
+
             custNameLabel.setMinWidth(400);
             custNoLabel.setMinWidth(400);
 
@@ -55,16 +60,11 @@ public class BillPage
             proPriceLabel.setMinWidth(140);
             proTotalLabel.setMinWidth(140);
 
-            /*
-            GridPane.setConstraints(proIdLabel, 4, 0);
-            GridPane.setConstraints(proNameLabel, 5, 0);
-            GridPane.setConstraints(proQuantityLabel, 6, 0);
-            GridPane.setConstraints(proPriceLabel, 7, 0);
-            GridPane.setConstraints(proTotalLabel, 8, 0);
-
-            GridPane gridLabel = new GridPane();
-            gridLabel.getChildren().addAll(proIdLabel, proNameLabel, proQuantityLabel, proPriceLabel, proTotalLabel);
-            */
+            proIdLabel.setId("title-label");
+            proNameLabel.setId("title-label");
+            proQuantityLabel.setId("title-label");
+            proPriceLabel.setId("title-label");
+            proTotalLabel.setId("title-label");
 
             HBox layoutTitle = new HBox(20);
             layoutTitle.getChildren().addAll(proIdLabel, proNameLabel, proPriceLabel, proQuantityLabel, proTotalLabel);
@@ -87,16 +87,12 @@ public class BillPage
             proPriceDetails.setMinWidth(140);
             proTotalDetails.setMinWidth(140);
 
-            /*
-            GridPane.setConstraints(proIdDetails, 4, 2);
-            GridPane.setConstraints(proNameDetails, 5, 2);
-            GridPane.setConstraints(proQuantityDetails, 6, 2);
-            GridPane.setConstraints(proPriceDetails, 7, 2);
-            GridPane.setConstraints(proTotalDetails, 8, 2);
+            proIdDetails.setId("input-label");
+            proNameDetails.setId("input-label");
+            proQuantityDetails.setId("input-label");
+            proPriceDetails.setId("input-label");
+            proTotalDetails.setId("input-label");
 
-            GridPane gridDetails = new GridPane();
-            gridDetails.getChildren().addAll(proIdDetails, proNameDetails, proQuantityDetails, proPriceDetails, proTotalDetails);
-            */
 
             HBox layoutDetails = new HBox(20);
             layoutDetails.getChildren().addAll(proIdDetails, proNameDetails, proPriceDetails, proQuantityDetails, proTotalDetails);
@@ -117,9 +113,11 @@ public class BillPage
             VBox layoutMain = new VBox(5);
             layoutMain.getChildren().addAll(layoutTop, layoutTwo, custNoLabel, layoutTitle, layoutDetails, closeButton);
             layoutMain.setMargin(custNoLabel, new Insets(0, 10, 100, 50));
-            layoutMain.setMargin(closeButton, new Insets(200, 0, 100, 350));
+            layoutMain.setMargin(closeButton, new Insets(100, 0, 100, 350));
 
             Scene scene = new Scene(layoutMain, 800, 800);
+            scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+
             window.setScene(scene);
             window.initStyle(StageStyle.UNDECORATED);
             window.showAndWait();
@@ -141,7 +139,9 @@ public class BillPage
             layout.getChildren().addAll(invalidLabel, closeButton);
             layout.setAlignment(Pos.CENTER);
 
-            Scene scene = new Scene(layout, 400, 400);
+            Scene scene = new Scene(layout, 800, 800);
+            scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+
             window.setScene(scene);
             window.initStyle(StageStyle.UNDECORATED);
             window.showAndWait();

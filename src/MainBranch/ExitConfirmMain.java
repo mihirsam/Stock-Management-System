@@ -20,12 +20,14 @@ public class ExitConfirmMain
         Label quesLabel = new Label("Are You Sure ?");
 
         Button yesButton = new Button("Yes");
+        yesButton.setPrefWidth(100);
         yesButton.setOnAction( e -> {
             answer = true;
             window.close();
         });
 
         Button noButton = new Button("No");
+        noButton.setPrefWidth(100);
         noButton.setOnAction( e -> {
             answer = false;
             window.close();
@@ -41,6 +43,8 @@ public class ExitConfirmMain
         layoutMain.setAlignment(Pos.CENTER);
 
         Scene scene = new Scene(layoutMain, 400, 200);
+        scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+
         window.setScene(scene);
         window.initStyle(StageStyle.UNDECORATED);
         window.showAndWait();

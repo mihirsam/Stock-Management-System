@@ -25,6 +25,11 @@ public class BuyAlertBox
             Label quantityLabel = new Label("Total Quantity : "+quantity);
             Label priceLabel = new Label("Total Price : "+totalPrice);
 
+            idLabel.setId("input-label");
+            nameLabel.setId("input-label");
+            quantityLabel.setId("input-label");
+            priceLabel.setId("input-label");
+
             Button okay = new Button("Okay");
             okay.setOnAction(e -> window.close());
 
@@ -35,14 +40,16 @@ public class BuyAlertBox
 
             VBox layoutCenter = new VBox(20);
             layoutCenter.getChildren().addAll(idLabel, nameLabel, quantityLabel, priceLabel, okay);
-            layoutCenter.setMargin(okay, new Insets(50, 10, 10, 50));
+            layoutCenter.setMargin(okay, new Insets(100, 10, 10, 50));
             layoutCenter.setAlignment(Pos.CENTER);
 
             BorderPane layoutMain = new BorderPane();
             layoutMain.setTop(layoutTop);
             layoutMain.setCenter(layoutCenter);
 
-            Scene scene = new Scene(layoutMain, 500, 500);
+            Scene scene = new Scene(layoutMain, 800, 800);
+            scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+
             window.setScene(scene);
         }
 
@@ -56,12 +63,14 @@ public class BuyAlertBox
             VBox layoutMain = new VBox(20);
             layoutMain.getChildren().addAll(status, okay);
             layoutMain.setAlignment(Pos.CENTER);
-            layoutMain.setMargin(status, new Insets(50, 10, 50, 10));
+            layoutMain.setMargin(status, new Insets(100, 10, 50, 10));
 
-            Scene scene = new Scene(layoutMain, 500, 500);
+            Scene scene = new Scene(layoutMain, 800, 800);
+            scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
             window.setScene(scene);
         }
+
 
         window.initStyle(StageStyle.UNDECORATED);
         window.showAndWait();

@@ -24,11 +24,13 @@ public class SellPage
         // Customer Details
 
         Label custLabel = new Label("Customer Details");
+        custLabel.setId("input-label");
         custLabel.setPadding(new Insets(20, 10, 10, 50));
         GridPane.setConstraints(custLabel, 8, 0);
 
         // Customer Name
         Label custName = new Label("Customer Name : ");
+        custName.setId("input-label");
         custName.setPadding(new Insets(10, 10, 20, 100));
         GridPane.setConstraints(custName, 10, 1);
 
@@ -39,6 +41,7 @@ public class SellPage
 
         // Customer Phone Number
         Label custPhone = new Label("Phone Number : ");
+        custPhone.setId("input-label");
         custPhone.setPadding(new Insets(10, 10, 20, 100));
         GridPane.setConstraints(custPhone, 10, 2);
 
@@ -50,11 +53,13 @@ public class SellPage
         // Product Details
 
         Label proLabel = new Label("Product Details");
+        proLabel.setId("input-label");
         proLabel.setPadding(new Insets(50, 10, 10, 50));
         GridPane.setConstraints(proLabel, 8, 4);
 
         // Product Id
         Label proId = new Label("Product Id : ");
+        proId.setId("input-label");
         proId.setPadding(new Insets(10, 10, 20, 100));
         GridPane.setConstraints(proId, 10, 5);
 
@@ -65,6 +70,7 @@ public class SellPage
 
         // Product Name
         Label proName = new Label("Product Name : ");
+        proName.setId("input-label");
         proName.setPadding(new Insets(10, 10, 20, 100));
         GridPane.setConstraints(proName, 10, 6);
 
@@ -75,6 +81,7 @@ public class SellPage
 
         // Quantity
         Label proQuantity = new Label("Quantity : ");
+        proQuantity.setId("input-label");
         proQuantity.setPadding(new Insets(10, 10, 20, 100));
         GridPane.setConstraints(proQuantity, 10, 7);
 
@@ -85,6 +92,7 @@ public class SellPage
 
         // Price
         Label proPrice = new Label("Price Per Piece: ");
+        proPrice.setId("input-label");
         proPrice.setPadding(new Insets(10, 10, 20, 100));
         GridPane.setConstraints(proPrice, 10, 8);
 
@@ -137,6 +145,7 @@ public class SellPage
         window.setScene(scene);
         //window.setFullScreen(true);
         //window.setMaximized(true);
+        scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
         window.initStyle(StageStyle.UNDECORATED);
         window.showAndWait();
 

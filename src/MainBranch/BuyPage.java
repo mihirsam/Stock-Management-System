@@ -23,6 +23,7 @@ public class BuyPage
 
         // Product Id
         Label proId = new Label("Product Id : ");
+        proId.setId("input-label");
         proId.setPrefWidth(150);
 
         TextField proIdInput = new TextField();
@@ -36,6 +37,7 @@ public class BuyPage
 
         // Product Name
         Label proName = new Label("Product Name : ");
+        proName.setId("input-label");
         proName.setPrefWidth(150);
 
         TextField proNameInput = new TextField();
@@ -49,6 +51,7 @@ public class BuyPage
 
         // Quantity
         Label proQuantity = new Label("Quantity : ");
+        proQuantity.setId("input-label");
         proQuantity.setPrefWidth(150);
 
         TextField proQuantityInput = new TextField();
@@ -63,6 +66,7 @@ public class BuyPage
 
         // Price
         Label proPrice = new Label("Price Per Piece : ");
+        proPrice.setId("input-label");
         proPrice.setPrefWidth(150);
 
         TextField proPriceInput = new TextField();
@@ -115,6 +119,7 @@ public class BuyPage
         //window.setFullScreen(true);
         //window.setMaximized(true);
         window.initStyle(StageStyle.UNDECORATED);
+        scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
         window.showAndWait();
 
     }
@@ -136,7 +141,6 @@ public class BuyPage
 
         catch(NumberFormatException e)
         {
-            System.out.println("\nInvalid Input!");
             BuyAlertBox.showUpdate(false, 0, "name", 0, 0);
         }
     }

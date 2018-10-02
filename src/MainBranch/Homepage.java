@@ -20,7 +20,7 @@ public class Homepage extends Application {
 
     public void start(Stage primaryStage) {
         Label labelTitle = new Label();
-        labelTitle.setText("Stock Management System");
+        labelTitle.setText("Inventory Management System");
         labelTitle.setAlignment(Pos.CENTER);
 
         viewButton = new Button("View");
