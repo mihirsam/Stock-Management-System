@@ -1,15 +1,25 @@
 .button{
     -fx-background-radius: 100;
     -fx-font-size: 20px;
-    -fx-font-family: "MADE Evolve Sans EVO";
+    -fx-font-family: "Autobus Bold";
 }
 
 .label{
     -fx-text-fill: #FFFFFF;
-    -fx-font-family: "GFS Neohellenic Rg";
+    -fx-font-family: "Autobus Bold";
     -fx-font-size: 40px;
 }
 
 .root{
-    -fx-background-color: #003d32;
+    -fx-background-image: url("Images/4.jpg");
+    -fx-background-size: 800 800;
+    -fx-background-position: center;
+}
+
+#input-label{
+    -fx-font-size: 20;
+}
+
+#title-label{
+    -fx-font-size: 25;
 }
