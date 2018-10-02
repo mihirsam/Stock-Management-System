@@ -20,7 +20,7 @@ public class Homepage extends Application {
 
     public void start(Stage primaryStage) {
         Label labelTitle = new Label();
-        labelTitle.setText("STOCK MANAGEMENT SYSTEM");
+        labelTitle.setText("Stock Management System");
         labelTitle.setAlignment(Pos.CENTER);
 
         viewButton = new Button("View");
@@ -76,7 +76,7 @@ public class Homepage extends Application {
         layoutMain.setCenter(layoutCenter);
 
         Scene scene = new Scene(layoutMain, 800, 800);
-        scene.getStylesheets().add("MainBranch/homepageStyle.css");
+        scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
         window = primaryStage;
         window.setTitle("Homepage");

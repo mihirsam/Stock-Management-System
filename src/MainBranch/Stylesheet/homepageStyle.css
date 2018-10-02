@@ -5,7 +5,8 @@
 }
 
 .label{
-    -fx-font-family: "MADE Evolve Sans EVO";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "GFS Neohellenic Rg";
     -fx-font-size: 40px;
 }
 

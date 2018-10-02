@@ -9,8 +9,16 @@
       <root url="jar://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib/javafx.media.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib/javafx.swing.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib/javafx.web.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib" recursive="false" type="SOURCES" />
   </library>
 </component>

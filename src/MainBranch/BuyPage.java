@@ -16,53 +16,65 @@ public class BuyPage
         Stage window = new Stage();
         window.initModality(Modality.APPLICATION_MODAL);
 
-        GridPane grid = new GridPane();
 
         Label labelTitle = new Label();
         labelTitle.setText("UPDATE BUY RECORDS");
-        labelTitle.setPadding(new Insets(50, 10, 50, 10));
+        labelTitle.setPadding(new Insets(50, 0, 0, 0));
 
         // Product Id
         Label proId = new Label("Product Id : ");
-        proId.setPadding(new Insets(30, 10, 30, 100));
-        GridPane.setConstraints(proId, 10, 0);
+        proId.setPrefWidth(150);
 
         TextField proIdInput = new TextField();
-        proIdInput.setPadding(new Insets(10, 10, 10, 10));
         proIdInput.setPromptText("eg: 001");
-        GridPane.setConstraints(proIdInput, 11, 0);
+
+        HBox layoutId = new HBox(5);
+        layoutId.getChildren().addAll(proId, proIdInput);
+        layoutId.setMargin(proId, new Insets(100, 5, 10, 230));
+        layoutId.setMargin(proIdInput, new Insets(100, 5, 10, 0));
+        //layoutId.setAlignment(Pos.CENTER);
 
         // Product Name
         Label proName = new Label("Product Name : ");
-        proName.setPadding(new Insets(30, 10, 30, 100));
-        GridPane.setConstraints(proName, 10, 1);
+        proName.setPrefWidth(150);
 
         TextField proNameInput = new TextField();
-        proNameInput.setPadding(new Insets(10, 10, 10, 10));
         proNameInput.setPromptText("eg: Jacket");
-        GridPane.setConstraints(proNameInput, 11, 1);
+
+        HBox layoutName = new HBox(5);
+        layoutName.getChildren().addAll(proName, proNameInput);
+        layoutName.setMargin(proName, new Insets(10, 5, 10, 0));
+        layoutName.setMargin(proNameInput, new Insets(10, 5, 10, 0));
+        layoutName.setAlignment(Pos.CENTER);
 
         // Quantity
         Label proQuantity = new Label("Quantity : ");
-        proQuantity.setPadding(new Insets(30, 10, 30, 100));
-        GridPane.setConstraints(proQuantity, 10, 2);
+        proQuantity.setPrefWidth(150);
 
         TextField proQuantityInput = new TextField();
-        proQuantityInput.setPadding(new Insets(10, 10, 10, 10));
         proQuantityInput.setPromptText("eg: 200");
-        GridPane.setConstraints(proQuantityInput, 11, 2);
+
+        HBox layoutQuantity = new HBox(5);
+        layoutQuantity.getChildren().addAll(proQuantity, proQuantityInput);
+        layoutQuantity.setMargin(proQuantity, new Insets(10, 5, 10, 0));
+        layoutQuantity.setMargin(proQuantityInput, new Insets(10, 5, 10, 0));
+
+        layoutQuantity.setAlignment(Pos.CENTER);
 
         // Price
-        Label proPrice = new Label("Price Per Piece: ");
-        proPrice.setPadding(new Insets(30, 10, 30, 100));
-        GridPane.setConstraints(proPrice, 10, 3);
+        Label proPrice = new Label("Price Per Piece : ");
+        proPrice.setPrefWidth(150);
 
         TextField proPriceInput = new TextField();
-        proPriceInput.setPadding(new Insets(10, 10, 10, 10));
         proPriceInput.setPromptText("eg: 100");
-        GridPane.setConstraints(proPriceInput, 11, 3);
 
-        grid.getChildren().addAll(proId, proIdInput, proName, proNameInput, proQuantity, proQuantityInput, proPrice, proPriceInput);
+        HBox layoutPrice = new HBox(5);
+        layoutPrice.getChildren().addAll(proPrice, proPriceInput);
+        layoutPrice.setMargin(proPrice, new Insets(10, 5, 10, 0));
+        layoutPrice.setMargin(proPriceInput, new Insets(10, 5, 10, 0));
+
+        layoutPrice.setAlignment(Pos.CENTER);
+
 
         // Submit Button
         Button submitButton = new Button("SUBMIT");
@@ -78,13 +90,6 @@ public class BuyPage
         backButton.setPrefHeight(20);
         backButton.setOnAction(e -> window.close());
 
-        // Left layout for BorderPane
-        /*
-        VBox layoutLeft = new VBox(20);
-        layoutLeft.setAlignment(Pos.BOTTOM_CENTER);
-        layoutLeft.getChildren().add(backButton);
-        layoutLeft.setMargin(backButton, new Insets(50, 10, 100, 10));
-        */
 
         // Top layout in BorderPane
         VBox layoutTop = new VBox(20);
@@ -94,24 +99,21 @@ public class BuyPage
         // Bot layout in BorderPane
         VBox layoutBot = new VBox(20);
         layoutBot.setAlignment(Pos.CENTER);
-        layoutBot.setMargin(submitButton, new Insets(20, 10, 10, 10));
+        layoutBot.setMargin(submitButton, new Insets(100, 10, 10, 10));
         layoutBot.setMargin(backButton, new Insets(10, 10, 100, 10));
         layoutBot.getChildren().addAll(submitButton, backButton);
 
-        //BorderPane
-        BorderPane layoutMain = new BorderPane();
-        layoutMain.setTop(layoutTop);
-        layoutMain.setCenter(grid);
-        layoutMain.setBottom(layoutBot);
-        //layoutMain.setLeft(layoutLeft);
 
+        VBox layoutMain = new VBox(20);
+        layoutMain.getChildren().addAll(layoutTop, layoutId, layoutName, layoutQuantity, layoutPrice, layoutBot);
+        layoutMain.setAlignment(Pos.CENTER);
 
         Scene scene = new Scene(layoutMain, 800, 800);
 
         window.setTitle("Buy Page");
         window.setScene(scene);
         //window.setFullScreen(true);
-        window.setMaximized(true);
+        //window.setMaximized(true);
         window.initStyle(StageStyle.UNDECORATED);
         window.showAndWait();
 
