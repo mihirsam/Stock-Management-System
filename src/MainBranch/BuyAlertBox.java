@@ -42,8 +42,7 @@ public class BuyAlertBox
             layoutMain.setTop(layoutTop);
             layoutMain.setCenter(layoutCenter);
 
-            Scene scene = new Scene(layoutMain, 500, 300);
-
+            Scene scene = new Scene(layoutMain, 500, 500);
             window.setScene(scene);
         }
 
@@ -56,6 +55,7 @@ public class BuyAlertBox
 
             VBox layoutMain = new VBox(20);
             layoutMain.getChildren().addAll(status, okay);
+            layoutMain.setAlignment(Pos.CENTER);
             layoutMain.setMargin(status, new Insets(50, 10, 50, 10));
 
             Scene scene = new Scene(layoutMain, 500, 500);
@@ -63,6 +63,7 @@ public class BuyAlertBox
             window.setScene(scene);
         }
 
+        window.initStyle(StageStyle.UNDECORATED);
         window.showAndWait();
     }
 }

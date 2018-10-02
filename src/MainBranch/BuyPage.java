@@ -19,11 +19,11 @@ public class BuyPage
         GridPane grid = new GridPane();
 
         Label labelTitle = new Label();
-        labelTitle.setText("RECORD BOUGHT STOCKS");
+        labelTitle.setText("UPDATE BUY RECORDS");
         labelTitle.setPadding(new Insets(50, 10, 50, 10));
 
         // Product Id
-        Label proId = new Label("Enter Product Id : ");
+        Label proId = new Label("Product Id : ");
         proId.setPadding(new Insets(30, 10, 30, 100));
         GridPane.setConstraints(proId, 10, 0);
 
@@ -33,7 +33,7 @@ public class BuyPage
         GridPane.setConstraints(proIdInput, 11, 0);
 
         // Product Name
-        Label proName = new Label("Enter Product Name : ");
+        Label proName = new Label("Product Name : ");
         proName.setPadding(new Insets(30, 10, 30, 100));
         GridPane.setConstraints(proName, 10, 1);
 
@@ -43,7 +43,7 @@ public class BuyPage
         GridPane.setConstraints(proNameInput, 11, 1);
 
         // Quantity
-        Label proQuantity = new Label("Enter Quantity : ");
+        Label proQuantity = new Label("Quantity : ");
         proQuantity.setPadding(new Insets(30, 10, 30, 100));
         GridPane.setConstraints(proQuantity, 10, 2);
 
@@ -53,7 +53,7 @@ public class BuyPage
         GridPane.setConstraints(proQuantityInput, 11, 2);
 
         // Price
-        Label proPrice = new Label("Enter Price Per Piece: ");
+        Label proPrice = new Label("Price Per Piece: ");
         proPrice.setPadding(new Insets(30, 10, 30, 100));
         GridPane.setConstraints(proPrice, 10, 3);
 
@@ -112,6 +112,7 @@ public class BuyPage
         window.setScene(scene);
         //window.setFullScreen(true);
         window.setMaximized(true);
+        window.initStyle(StageStyle.UNDECORATED);
         window.showAndWait();
 
     }

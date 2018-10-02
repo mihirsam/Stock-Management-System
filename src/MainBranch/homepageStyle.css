@@ -1,0 +1,14 @@
+.button{
+    -fx-background-radius: 100;
+    -fx-font-size: 20px;
+    -fx-font-family: "MADE Evolve Sans EVO";
+}
+
+.label{
+    -fx-font-family: "MADE Evolve Sans EVO";
+    -fx-font-size: 40px;
+}
+
+.root{
+    -fx-background-color: #003d32;
+}
