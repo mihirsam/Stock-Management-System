@@ -31,7 +31,7 @@ public class BuyPage
 
         HBox layoutId = new HBox(5);
         layoutId.getChildren().addAll(proId, proIdInput);
-        layoutId.setMargin(proId, new Insets(100, 5, 10, 230));
+        layoutId.setMargin(proId, new Insets(100, 5, 10, 245));
         layoutId.setMargin(proIdInput, new Insets(100, 5, 10, 0));
         //layoutId.setAlignment(Pos.CENTER);
 
