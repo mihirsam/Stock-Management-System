@@ -7,22 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/BillPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BillPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/BuyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BuyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainBranch/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/SellPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/SellPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,29 +63,32 @@
     <session id="1271929131">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="css" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
           <entry key="jpg" value="10" />
         </counts>
       </usages-collector>
@@ -109,19 +97,19 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="1" />
           <entry key="Image" value="10" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="388" />
-          <entry key="java" value="10604" />
+          <entry key="java" value="11340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="388" />
-          <entry key="JAVA" value="10604" />
+          <entry key="JAVA" value="11340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -135,11 +123,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/Homepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="37" />
+            <state relative-caret-position="288">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/ViewPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="882">
+              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/SellPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="147" column="31" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="78" />
+            <state relative-caret-position="558">
+              <caret line="145" column="37" lean-forward="true" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -183,8 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="135" column="51" lean-forward="true" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+            <state relative-caret-position="845">
+              <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,6 +207,9 @@
       <find>6</find>
       <find>system</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -220,13 +223,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MainBranch/homepageStyle.css" />
-        <option value="$PROJECT_DIR$/src/MainBranch/Homepage.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/SellPage.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" />
         <option value="$PROJECT_DIR$/src/MainBranch/BillPage.java" />
-        <option value="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/BuyPage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Homepage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/ViewPage.java" />
       </list>
     </option>
   </component>
@@ -274,13 +278,6 @@
             </path>
             <path>
               <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stock-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MainBranch" type="462c0819:PsiDirectoryNode" />
-              <item name="Stylesheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -301,7 +298,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538517558721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539007608095" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/AdvanceJava/Resources/javafx-sdk-11/lib" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -442,17 +439,24 @@
       <workItem from="1538499963450" duration="6181000" />
       <workItem from="1538506989532" duration="968000" />
       <workItem from="1538513243476" duration="4258000" />
+      <workItem from="1538518432041" duration="53000" />
+      <workItem from="1538540921424" duration="130000" />
+      <workItem from="1538544172731" duration="337000" />
+      <workItem from="1538551524280" duration="220000" />
+      <workItem from="1538582621971" duration="630000" />
+      <workItem from="1538898255576" duration="66000" />
+      <workItem from="1539004215861" duration="3092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19921000" />
+    <option name="totallyTimeSpent" value="24449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1366" height="767" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.31742424" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.35530302" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32954547" />
       <window_info id="Designer" order="3" />
@@ -487,7 +491,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2977273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.32272726" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32954547" />
       <window_info id="Designer" order="3" />
@@ -496,8 +500,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32761312" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3900156" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,28 +552,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -591,26 +576,6 @@
     <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/7.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/SellPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="147" column="31" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/BillPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -631,27 +596,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="135" column="51" lean-forward="true" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+        <state relative-caret-position="252">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/SellPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="145" column="37" lean-forward="true" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Homepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="288">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/Homepage.java">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="37" />
+        <state relative-caret-position="882">
+          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/ViewPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

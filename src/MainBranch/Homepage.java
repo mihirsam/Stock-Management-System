@@ -26,11 +26,11 @@ public class Homepage extends Application {
         viewButton = new Button("View");
         viewButton.setPrefHeight(50);
         viewButton.setPrefWidth(300);
-        /*
-        viewButton.setOnAction( e-> {
 
-            });
-         */
+        viewButton.setOnAction( e-> {
+            ViewPage.viewPageMain();
+        });
+
 
         buyButton = new Button("Buy");
         buyButton.setPrefHeight(50);
