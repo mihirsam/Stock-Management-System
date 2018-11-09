@@ -8,7 +8,7 @@ import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.scene.Scene;
-
+import java.text.SimpleDateFormat;
 
 public class BillPage
 {
@@ -16,6 +16,9 @@ public class BillPage
                                     String proName, int proQuantity, double proPrice, double totalPrice)
     {
         Date today = new Date();
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        String strDate = formatter.format(today);
+
         Stage window = new Stage();
         window.setTitle("Billing Page");
         window.initModality(Modality.APPLICATION_MODAL);
@@ -33,7 +36,7 @@ public class BillPage
             // Customer Info
             Label custNameLabel = new Label("Customer Name : "+ custName);
             Label custNoLabel = new Label("Customer Phone Number : "+custNo);
-            Label dateLabel = new Label("Date : "+ today);
+            Label dateLabel = new Label("Date : "+ strDate);
 
             custNameLabel.setId("title-label");
             custNoLabel.setId("title-label");
@@ -48,13 +51,13 @@ public class BillPage
             layoutTwo.setMargin(dateLabel, new Insets(50, 10, 10, 10));
 
             // Titles
-            Label proIdLabel = new Label("Product Id");
+            Label proIdLabel = new Label("Id");
             Label proNameLabel = new Label("Name");
             Label proQuantityLabel = new Label("Quantity");
             Label proPriceLabel = new Label("Price");
             Label proTotalLabel = new Label("Total Price");
 
-            proIdLabel.setMinWidth(140);
+            proIdLabel.setMinWidth(100);
             proNameLabel.setMinWidth(140);
             proQuantityLabel.setMinWidth(140);
             proPriceLabel.setMinWidth(140);
@@ -81,7 +84,7 @@ public class BillPage
             Label proPriceDetails = new Label("Rs. "+proPrice);
             Label proTotalDetails = new Label("Rs. "+totalPrice);
 
-            proIdDetails.setMinWidth(140);
+            proIdDetails.setMinWidth(100);
             proNameDetails.setMinWidth(140);
             proQuantityDetails.setMinWidth(140);
             proPriceDetails.setMinWidth(140);

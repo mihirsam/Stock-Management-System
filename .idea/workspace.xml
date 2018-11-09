@@ -6,7 +6,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stock-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stock-Management-System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ExitConfirmMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ExitConfirmMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ViewPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ViewPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/BillPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BillPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/BuyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BuyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/SellPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/SellPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/ViewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ViewPage.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,21 +179,28 @@
     <session id="-2097548860">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="java" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="111" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
   </component>
   <component name="FavoritesManager">
@@ -193,8 +259,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/BillPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="1720">
+              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,7 +268,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -211,11 +277,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+            <state relative-caret-position="2380">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,8 +326,8 @@
         <option value="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/Homepage.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/ViewPage.java" />
-        <option value="$PROJECT_DIR$/src/MainBranch/BillPage.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/BuyPage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/BillPage.java" />
       </list>
     </option>
   </component>
@@ -290,7 +356,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,6 +382,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,18 +547,20 @@
       <workItem from="1539595218540" duration="764000" />
       <workItem from="1541417879331" duration="1103000" />
       <workItem from="1541771860029" duration="547000" />
-      <workItem from="1541773803944" duration="651000" />
+      <workItem from="1541773803944" duration="1087000" />
+      <workItem from="1541775592380" duration="196000" />
+      <workItem from="1541777851782" duration="1716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27531000" />
+    <option name="totallyTimeSpent" value="29879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.3850227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.39712557" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32954547" />
       <window_info id="Designer" order="3" />
@@ -501,7 +569,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38923076" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38923076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -657,30 +725,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="2380">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/BillPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        <state relative-caret-position="1720">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
