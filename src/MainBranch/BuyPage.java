@@ -16,7 +16,6 @@ public class BuyPage
         Stage window = new Stage();
         window.initModality(Modality.APPLICATION_MODAL);
 
-
         Label labelTitle = new Label();
         labelTitle.setText("UPDATE BUY RECORDS");
         labelTitle.setPadding(new Insets(50, 0, 0, 0));
@@ -31,6 +30,7 @@ public class BuyPage
 
         HBox layoutId = new HBox(5);
         layoutId.getChildren().addAll(proId, proIdInput);
+
         layoutId.setMargin(proId, new Insets(100, 5, 10, 244));
         layoutId.setMargin(proIdInput, new Insets(100, 5, 10, 0));
         //layoutId.setAlignment(Pos.CENTER);
