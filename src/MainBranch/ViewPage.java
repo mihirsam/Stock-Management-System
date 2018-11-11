@@ -47,6 +47,14 @@ public class ViewPage
             Button viewBuy = new Button("Buy Records");
             viewBuy.setPrefHeight(50);
             viewBuy.setPrefWidth(300);
+            viewBuy.setOnAction(e -> {
+                try{
+                    BuyDatabaseView.showTable();
+                } catch (Exception el)
+                {
+                    el.printStackTrace();
+                }
+            });
 
             Button backButton = new Button("Back");
             backButton.setPrefHeight(20);
