@@ -7,6 +7,18 @@ import java.util.Date;
 
 public class DatabaseConn
 {
+    public static void main(String[] args) throws Exception {
+        ResultSet rs;
+        rs = MainDatabase();
+
+        if(rs != null)
+        {
+            while(rs.next())
+            {
+                System.out.println("name"+rs.getInt(3));
+            }
+        }
+    }
     public static ResultSet MainDatabase() throws SQLException
     {
         ResultSet errorRS;

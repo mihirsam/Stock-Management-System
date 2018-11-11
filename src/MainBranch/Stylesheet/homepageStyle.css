@@ -23,3 +23,7 @@
 #title-label{
     -fx-font-size: 25;
 }
+
+#column-head{
+    -fx-font-size: 25px;
+}

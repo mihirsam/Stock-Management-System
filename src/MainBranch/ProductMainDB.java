@@ -4,15 +4,15 @@ public class ProductMainDB
 {
     private int proId;
     private String proName;
-    private int proQuantity;
-    private int proPrice;
+    private String proQuantity;
+    private String proPrice;
 
     public ProductMainDB()
     {
         this.proId = 0;
         this.proName = "";
-        this.proQuantity = 0;
-        this.proPrice = 0;
+        this.proQuantity = "";
+        this.proPrice = "";
     }
 
     public int getProId() {
@@ -31,19 +31,19 @@ public class ProductMainDB
         this.proName = proName;
     }
 
-    public int getProQuantity(int quantity) {
+    public String getProQuantity() {
         return proQuantity;
     }
 
-    public void setProQuantity(int proQuantity) {
+    public void setProQuantity(String proQuantity) {
         this.proQuantity = proQuantity;
     }
 
-    public int getProPrice(int price) {
+    public String getProPrice() {
         return proPrice;
     }
 
-    public void setProPrice(int proPrice) {
+    public void setProPrice(String proPrice) {
         this.proPrice = proPrice;
     }
 }

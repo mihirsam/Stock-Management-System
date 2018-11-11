@@ -1,0 +1,26 @@
+.button{
+    -fx-background-radius: 100;
+    -fx-font-size: 20px;
+    -fx-font-family: "Autobus Bold";
+}
+
+.label{
+    -fx-text-fill: darkslategrey;
+    -fx-font-family: "Autobus Bold";
+    -fx-font-size: 20px;
+}
+
+.root{
+    -fx-background-image: url("Images/4.jpg");
+    -fx-background-size: 800 800;
+    -fx-background-position: center;
+}
+
+#input-label{
+    -fx-font-size: 20;
+}
+
+#title-label{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 40px;
+}

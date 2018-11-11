@@ -32,11 +32,12 @@ public class MainDatabaseView
 
             //main label
             Label labelTitle = new Label("MAIN DATABASE");
-            labelTitle.setPadding(new Insets(20, 10, 30, 10));
+            labelTitle.setId("title-label");
+            //labelTitle.setPadding(new Insets(20, 10, 30, 10));
 
             //setting table view columns
             TableColumn<ProductMainDB, String> IdCol = new TableColumn<>("ID");
-            IdCol.setMinWidth(50);
+            IdCol.setMinWidth(200);
             IdCol.setCellValueFactory(new PropertyValueFactory<>("proId"));
 
             TableColumn<ProductMainDB, String> NameCol = new TableColumn<>("NAME");
@@ -51,6 +52,12 @@ public class MainDatabaseView
             PriceCol.setMinWidth(200);
             PriceCol.setCellValueFactory(new PropertyValueFactory<>("proPrice"));
 
+            //styling column name
+            IdCol.setId("column-head");
+            NameCol.setId("column-head");
+            QuantityCol.setId("column-head");
+            PriceCol.setId("column-head");
+
             //setting tableview
             TableView<ProductMainDB> table = new TableView<>();
             table.setItems(getProduct());
@@ -64,13 +71,13 @@ public class MainDatabaseView
 
             //
             VBox vBox = new VBox(30);
-            vBox.getChildren().addAll(table);
+            vBox.getChildren().addAll(labelTitle, table, backButton);
+            vBox.setAlignment(Pos.CENTER);
 
-            Scene scene = new Scene(vBox);
+            Scene scene = new Scene(vBox, 800, 800);
             window.setScene(scene);
-            window.show();
 
-            scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+            scene.getStylesheets().add("MainBranch/Stylesheet/tableviewStyle.css");
             window.initStyle(StageStyle.UNDECORATED);
             window.showAndWait();
         }
@@ -88,17 +95,22 @@ public class MainDatabaseView
             ObservableList<ProductMainDB> product = FXCollections.observableArrayList();
             ResultSet rs = DatabaseConn.MainDatabase();
 
-            while(rs.next())
+            if(rs != null)
             {
-                ProductMainDB proDB = new ProductMainDB();
+                while(rs.next())
+                {
+                    ProductMainDB proDB = new ProductMainDB();
 
-                proDB.setProId(rs.getInt("ID"));
-                proDB.setProName(rs.getString("ProName"));
-                proDB.getProQuantity(rs.getInt("Quantity"));
-                proDB.getProPrice(rs.getInt("Price"));
+                    proDB.setProId(rs.getInt("ID"));
+                    proDB.setProName(rs.getString("ProName"));
+                    proDB.setProQuantity(rs.getString("Quantity"));
+                    proDB.setProPrice(rs.getString("Price"));
 
-                product.add(proDB);
+                    System.out.println("quan"+rs.getString("Quantity")+"price"+rs.getString("Price"));
+                    product.add(proDB);
+                }
             }
+
 
             return product;
         }

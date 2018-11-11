@@ -56,7 +56,7 @@ public class ViewPage
             layoutMain.setAlignment(Pos.TOP_CENTER);
 
             Scene scene = new Scene(layoutMain, 800, 800);
-            //scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+            scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
             window.setScene(scene);
             window.initStyle(StageStyle.UNDECORATED);
