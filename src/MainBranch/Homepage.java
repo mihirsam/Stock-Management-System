@@ -28,7 +28,13 @@ public class Homepage extends Application {
         viewButton.setPrefWidth(300);
 
         viewButton.setOnAction( e-> {
-            ViewPage.viewPageMain();
+            try {
+                ViewPage.viewPageMain();
+            }
+            catch(Exception el)
+            {
+                el.printStackTrace();
+            }
         });
 
 

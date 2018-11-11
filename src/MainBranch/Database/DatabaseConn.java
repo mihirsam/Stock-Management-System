@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class DatabaseConn
 {
-    public static ResultSet MainDatabase()
+    public static ResultSet MainDatabase() throws SQLException
     {
         ResultSet errorRS;
 
@@ -30,11 +30,11 @@ public class DatabaseConn
         catch (Exception e)
         {
             System.out.println("\nError in loading main database!");
-            return null;
+            throw e;
         }
     }
 
-    public static ResultSet SalesDatabase()
+    public static ResultSet SalesDatabase() throws SQLException
     {
         try
         {
@@ -55,11 +55,11 @@ public class DatabaseConn
         catch(Exception e)
         {
             System.out.println("\nError in loading Sales database!");
-            return null;
+            throw e;
         }
     }
 
-    public static ResultSet BuyDatabase()
+    public static ResultSet BuyDatabase() throws SQLException
     {
         try
         {
@@ -80,7 +80,7 @@ public class DatabaseConn
         catch(Exception e)
         {
             System.out.println("\nError in loading Sales database!");
-            return null;
+            throw e;
         }
     }
 }
