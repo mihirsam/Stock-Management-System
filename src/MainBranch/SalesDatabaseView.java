@@ -20,7 +20,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import java.sql.ResultSet;
 
-public class MainDatabaseView
+public class SalesDatabaseView
 {
     public static void showTable() throws Exception
     {
@@ -30,32 +30,50 @@ public class MainDatabaseView
             window.initModality(Modality.APPLICATION_MODAL);
 
             //main label
-            Label labelTitle = new Label("MAIN DATABASE");
+            Label labelTitle = new Label("SALES DATABASE");
             labelTitle.setId("title-label");
-            //labelTitle.setPadding(new Insets(20, 10, 30, 10));
 
             //setting table view columns
-            TableColumn<ProductMainDB, String> IdCol = new TableColumn<>("ID");
-            IdCol.setMinWidth(200);
+            TableColumn<ProductSalesDB, String> SlCol = new TableColumn<>("Sl. No");
+            SlCol.setMinWidth(50);
+            SlCol.setCellValueFactory(new PropertyValueFactory<>("proSl"));
+
+            TableColumn<ProductSalesDB, String> IdCol = new TableColumn<>("ID");
+            IdCol.setMinWidth(50);
             IdCol.setCellValueFactory(new PropertyValueFactory<>("proId"));
 
-            TableColumn<ProductMainDB, String> NameCol = new TableColumn<>("NAME");
-            NameCol.setMinWidth(200);
+            TableColumn<ProductSalesDB, String> NameCol = new TableColumn<>("NAME");
+            NameCol.setMinWidth(100);
             NameCol.setCellValueFactory(new PropertyValueFactory<>("proName"));
 
-            TableColumn<ProductMainDB, String> QuantityCol = new TableColumn<>("QUANTITY");
-            QuantityCol.setMinWidth(200);
-            QuantityCol.setCellValueFactory(new PropertyValueFactory<>("proQuantity"));
+            TableColumn<ProductSalesDB, String> CustCol = new TableColumn<>("CUST. NAME");
+            CustCol.setMinWidth(100);
+            CustCol.setCellValueFactory(new PropertyValueFactory<>("custName"));
 
-            TableColumn<ProductMainDB, String> PriceCol = new TableColumn<>("PRICE");
-            PriceCol.setMinWidth(200);
+            TableColumn<ProductSalesDB, String> PhoneCol = new TableColumn<>("PHONE NO.");
+            PhoneCol.setMinWidth(100);
+            PhoneCol.setCellValueFactory(new PropertyValueFactory<>("custPhone"));
+
+            TableColumn<ProductSalesDB, String> PriceCol = new TableColumn<>("PRICE");
+            PriceCol.setMinWidth(50);
             PriceCol.setCellValueFactory(new PropertyValueFactory<>("proPrice"));
 
+            TableColumn<ProductSalesDB, String> QuantityCol = new TableColumn<>("QUANTITY");
+            QuantityCol.setMinWidth(50);
+            QuantityCol.setCellValueFactory(new PropertyValueFactory<>("proQuantity"));
+
+            TableColumn<ProductSalesDB, String> TotalCol = new TableColumn<>("TOTAL");
+            TotalCol.setMinWidth(50);
+            TotalCol.setCellValueFactory(new PropertyValueFactory<>("proTotal"));
+
+            TableColumn<ProductSalesDB, String> DateCol = new TableColumn<>("DATE");
+            DateCol.setMinWidth(200);
+            DateCol.setCellValueFactory(new PropertyValueFactory<>("proDate"));
 
             //setting tableview
-            TableView<ProductMainDB> table = new TableView<>();
+            TableView<ProductSalesDB> table = new TableView<>();
             table.setItems(getProduct());
-            table.getColumns().addAll(IdCol, NameCol, QuantityCol, PriceCol);
+            table.getColumns().addAll(SlCol, IdCol, NameCol, PriceCol, QuantityCol, TotalCol, CustCol, PhoneCol, DateCol);
 
             //setting back button
             Button backButton = new Button("Back");
@@ -74,37 +92,41 @@ public class MainDatabaseView
             scene.getStylesheets().add("MainBranch/Stylesheet/tableviewStyle.css");
             window.initStyle(StageStyle.UNDECORATED);
             window.showAndWait();
-        }
 
-        catch (Exception e)
+        }
+        catch(Exception e)
         {
             throw e;
         }
     }
 
-    public static ObservableList<ProductMainDB> getProduct() throws Exception
+    public static ObservableList<ProductSalesDB> getProduct() throws Exception
     {
         try
         {
-            ObservableList<ProductMainDB> product = FXCollections.observableArrayList();
-            ResultSet rs = DatabaseConn.MainDatabase();
+            ObservableList<ProductSalesDB> product = FXCollections.observableArrayList();
+            ResultSet rs = DatabaseConn.SalesDatabase();
 
             if(rs != null)
             {
                 while(rs.next())
                 {
-                    ProductMainDB proDB = new ProductMainDB();
+                    ProductSalesDB proDB = new ProductSalesDB();
 
-                    proDB.setProId(rs.getInt("ID"));
+                    proDB.setProId(rs.getString("ProId"));
                     proDB.setProName(rs.getString("ProName"));
                     proDB.setProQuantity(rs.getString("Quantity"));
                     proDB.setProPrice(rs.getString("Price"));
+                    proDB.setProSl(rs.getString("ID"));
+                    proDB.setCustName(rs.getString("CustName"));
+                    proDB.setCustPhone(rs.getString("CustPhNo"));
+                    proDB.setProTotal(rs.getString("TotalPrice"));
+                    proDB.setProDate(rs.getString("SellDate"));
 
                     //System.out.println("quan"+rs.getString("Quantity")+"price"+rs.getString("Price"));
                     product.add(proDB);
                 }
             }
-
 
             return product;
         }
