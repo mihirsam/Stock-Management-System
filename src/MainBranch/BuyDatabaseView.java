@@ -40,7 +40,7 @@ public class BuyDatabaseView
 
             TableColumn<ProductBuyDB, String> IdCol = new TableColumn<>("ID");
             IdCol.setMinWidth(100);
-            IdCol.setCellValueFactory(new PropertyValueFactory<>("prId"));
+            IdCol.setCellValueFactory(new PropertyValueFactory<>("proId"));
 
             TableColumn<ProductBuyDB, String> NameCol = new TableColumn<>("NAME");
             NameCol.setMinWidth(100);
@@ -105,12 +105,12 @@ public class BuyDatabaseView
                     ProductBuyDB proDB = new ProductBuyDB();
 
                     proDB.setProSl(rs.getString("SlNo"));
-                    proDB.setProId(rs.getString("ProId"));
+                    proDB.setProId(rs.getString("ID"));
                     proDB.setProName(rs.getString("ProName"));
                     proDB.setProQuantity(rs.getString("Quantity"));
                     proDB.setProPrice(rs.getString("Price"));
                     proDB.setProTotal(rs.getString("TotalPrice"));
-                    proDB.setProDate(rs.getString("SellDate"));
+                    proDB.setProDate(rs.getString("BuyDate"));
 
                     //System.out.println("quan"+rs.getString("Quantity")+"price"+rs.getString("Price"));
                     product.add(proDB);

@@ -1,5 +1,6 @@
 package MainBranch;
 
+import MainBranch.Database.DatabaseConn;
 import javafx.application.*;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -7,6 +8,8 @@ import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.scene.Scene;
+
+import java.sql.SQLException;
 
 public class BuyPage
 {
@@ -136,11 +139,19 @@ public class BuyPage
             finalPrice = Double.parseDouble(price);
             totalPrice = finalPrice * finalQuantity;
 
-            BuyAlertBox.showUpdate(true, finalID, name, finalQuantity, totalPrice);
+            boolean result = DatabaseConn.UpdateBuyData(name, finalID, finalQuantity, finalPrice, totalPrice);
+
+            BuyAlertBox.showUpdate(result, finalID, name, finalQuantity, totalPrice);
         }
 
         catch(NumberFormatException e)
         {
+            e.printStackTrace();
+            BuyAlertBox.showUpdate(false, 0, "name", 0, 0);
+        }
+
+        catch (SQLException e) {
+            e.printStackTrace();
             BuyAlertBox.showUpdate(false, 0, "name", 0, 0);
         }
     }

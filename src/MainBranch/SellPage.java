@@ -1,5 +1,6 @@
 package MainBranch;
 
+import MainBranch.Database.DatabaseConn;
 import javafx.application.*;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -7,6 +8,8 @@ import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.scene.Scene;
+
+import java.sql.SQLException;
 
 public class SellPage
 {
@@ -154,23 +157,26 @@ public class SellPage
     public static void submitSell(String custName, String custNo, String proId, String proName, String proQuantity, String proPrice)
     {
         int finalQuantity, finalId;
-        Long finalCustNo;
         double finalPrice, finalTotalPrice;
 
         try
         {
-            finalCustNo = Long.parseLong(custNo);
             finalQuantity = Integer.parseInt(proQuantity);
             finalId = Integer.parseInt(proId);
             finalPrice = Double.parseDouble(proPrice);
             finalTotalPrice = finalPrice * finalQuantity;
 
-            BillPage.BillPageMain(true, custName, finalCustNo, finalId, proName, finalQuantity, finalPrice, finalTotalPrice);
+            boolean result = DatabaseConn.UpdateSalesData(finalId, proName, finalQuantity, finalPrice, finalTotalPrice, custName, custNo);
+            BillPage.BillPageMain(result, custName, custNo, finalId, proName, finalQuantity, finalPrice, finalTotalPrice);
         }
 
         catch(NumberFormatException e)
         {
-            BillPage.BillPageMain(false, "", 0L, 0, "", 0, 0, 0);
+            e.printStackTrace();
+            BillPage.BillPageMain(false, "", "", 0, "", 0, 0, 0);
+        } catch (SQLException e) {
+            BillPage.BillPageMain(false, "", "", 0, "", 0, 0, 0);
+            e.printStackTrace();
         }
     }
 }

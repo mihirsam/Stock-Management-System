@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 
 public class BillPage
 {
-    public static void BillPageMain(boolean status, String custName, Long custNo, int proId,
+    public static void BillPageMain(boolean status, String custName, String custNo, int proId,
                                     String proName, int proQuantity, double proPrice, double totalPrice)
     {
         Date today = new Date();
