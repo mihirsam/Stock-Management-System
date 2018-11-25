@@ -7,18 +7,6 @@ import java.util.Date;
 
 public class DatabaseConn
 {
-    public static void main(String[] args) throws Exception {
-        ResultSet rs;
-        rs = MainDatabase();
-
-        if(rs != null)
-        {
-            while(rs.next())
-            {
-                System.out.println("name"+rs.getInt(3));
-            }
-        }
-    }
     public static ResultSet MainDatabase() throws SQLException
     {
         ResultSet errorRS;
@@ -217,7 +205,7 @@ public class DatabaseConn
                         insert.setString(3, custName);
                         insert.setString(4, custNo);
                         insert.setInt(5, totalProPrice);
-                        insert.setInt(6, tempQty);
+                        insert.setInt(6, finalQty);
                         insert.setInt(7, totalProPrice);
                         insert.setDate(8, sqlDate);
                         insert.executeUpdate();
