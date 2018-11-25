@@ -14,10 +14,10 @@ import java.sql.SQLException;
 public class BuyPage
 {
 
-    public static void BuyPageMain()
+    public static void BuyPageMain(Stage primaryStage)
     {
-        Stage window = new Stage();
-        window.initModality(Modality.APPLICATION_MODAL);
+        //Stage window = new Stage();
+        //window.initModality(Modality.APPLICATION_MODAL);
 
         Label labelTitle = new Label();
         labelTitle.setText("UPDATE BUY RECORDS");
@@ -88,14 +88,16 @@ public class BuyPage
         submitButton.setPrefWidth(150);
         submitButton.setPrefHeight(25);
         submitButton.setOnAction(e -> {
-            submitBuy(proIdInput.getText(), proNameInput.getText(), proQuantityInput.getText(), proPriceInput.getText());
+            submitBuy(primaryStage, proIdInput.getText(), proNameInput.getText(), proQuantityInput.getText(), proPriceInput.getText());
         });
 
         // Back Button
         Button backButton = new Button("Back");
         backButton.setPrefWidth(100);
         backButton.setPrefHeight(20);
-        backButton.setOnAction(e -> window.close());
+        backButton.setOnAction(e -> {
+            Homepage.setHomePage(primaryStage);
+        });
 
 
         // Top layout in BorderPane
@@ -117,17 +119,17 @@ public class BuyPage
 
         Scene scene = new Scene(layoutMain, 800, 800);
 
-        window.setTitle("Buy Page");
-        window.setScene(scene);
+        primaryStage.setTitle("Buy Page");
+        primaryStage.setScene(scene);
         //window.setFullScreen(true);
         //window.setMaximized(true);
-        window.initStyle(StageStyle.UNDECORATED);
+        //window.initStyle(StageStyle.UNDECORATED);
         scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
-        window.showAndWait();
+        primaryStage.show();
 
     }
 
-    public static void submitBuy(String id, String name, String quantity, String price)
+    public static void submitBuy(Stage primaryStage, String id, String name, String quantity, String price)
     {
         int finalID, finalQuantity;
         double finalPrice, totalPrice;
@@ -141,18 +143,18 @@ public class BuyPage
 
             boolean result = DatabaseConn.UpdateBuyData(name, finalID, finalQuantity, finalPrice, totalPrice);
 
-            BuyAlertBox.showUpdate(result, finalID, name, finalQuantity, totalPrice);
+            BuyAlertBox.showUpdate(primaryStage, result, finalID, name, finalQuantity, totalPrice);
         }
 
         catch(NumberFormatException e)
         {
             e.printStackTrace();
-            BuyAlertBox.showUpdate(false, 0, "name", 0, 0);
+            BuyAlertBox.showUpdate(primaryStage, false, 0, "name", 0, 0);
         }
 
         catch (SQLException e) {
             e.printStackTrace();
-            BuyAlertBox.showUpdate(false, 0, "name", 0, 0);
+            BuyAlertBox.showUpdate(primaryStage, false, 0, "name", 0, 0);
         }
     }
 }

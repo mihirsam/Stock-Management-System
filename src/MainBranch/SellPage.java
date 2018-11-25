@@ -13,11 +13,11 @@ import java.sql.SQLException;
 
 public class SellPage
 {
-    public static void SellPageMain()
+    public static void SellPageMain(Stage primaryStage)
     {
-        Stage window = new Stage();
-        window.setTitle("Sell Page");
-        window.initModality(Modality.APPLICATION_MODAL);
+        //Stage window = new Stage();
+        primaryStage.setTitle("Sell Page");
+        //window.initModality(Modality.APPLICATION_MODAL);
 
         GridPane grid = new GridPane();
 
@@ -112,7 +112,7 @@ public class SellPage
         submitButton.setPrefWidth(150);
         submitButton.setPrefHeight(25);
         submitButton.setOnAction(e -> {
-            submitSell(custNameInput.getText(), custPhoneInput.getText(), proIdInput.getText(), proNameInput.getText(), proQuantityInput.getText(), proPriceInput.getText());
+            submitSell(primaryStage, custNameInput.getText(), custPhoneInput.getText(), proIdInput.getText(), proNameInput.getText(), proQuantityInput.getText(), proPriceInput.getText());
         });
 
 
@@ -120,7 +120,9 @@ public class SellPage
         Button backButton = new Button("Back");
         backButton.setPrefWidth(100);
         backButton.setPrefHeight(20);
-        backButton.setOnAction(e -> window.close());
+        backButton.setOnAction(e -> {
+            Homepage.setHomePage(primaryStage);
+        });
 
         // Top layout in BorderPane
         VBox layoutTop = new VBox(20);
@@ -144,17 +146,16 @@ public class SellPage
 
         Scene scene = new Scene(layoutMain, 800, 800);
 
-        window.setTitle("Buy Page");
-        window.setScene(scene);
+        primaryStage.setScene(scene);
         //window.setFullScreen(true);
         //window.setMaximized(true);
         scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
-        window.initStyle(StageStyle.UNDECORATED);
-        window.showAndWait();
+        //window.initStyle(StageStyle.UNDECORATED);
+        primaryStage.show();
 
     }
 
-    public static void submitSell(String custName, String custNo, String proId, String proName, String proQuantity, String proPrice)
+    public static void submitSell(Stage primaryStage, String custName, String custNo, String proId, String proName, String proQuantity, String proPrice)
     {
         int finalQuantity, finalId;
         double finalPrice, finalTotalPrice;
@@ -167,15 +168,15 @@ public class SellPage
             finalTotalPrice = finalPrice * finalQuantity;
 
             boolean result = DatabaseConn.UpdateSalesData(finalId, proName, finalQuantity, finalPrice, finalTotalPrice, custName, custNo);
-            BillPage.BillPageMain(result, custName, custNo, finalId, proName, finalQuantity, finalPrice, finalTotalPrice);
+            BillPage.BillPageMain(primaryStage, result, custName, custNo, finalId, proName, finalQuantity, finalPrice, finalTotalPrice);
         }
 
         catch(NumberFormatException e)
         {
             e.printStackTrace();
-            BillPage.BillPageMain(false, "", "", 0, "", 0, 0, 0);
+            BillPage.BillPageMain(primaryStage, false, "", "", 0, "", 0, 0, 0);
         } catch (SQLException e) {
-            BillPage.BillPageMain(false, "", "", 0, "", 0, 0, 0);
+            BillPage.BillPageMain(primaryStage, false, "", "", 0, "", 0, 0, 0);
             e.printStackTrace();
         }
     }

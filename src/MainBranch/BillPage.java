@@ -12,16 +12,16 @@ import java.text.SimpleDateFormat;
 
 public class BillPage
 {
-    public static void BillPageMain(boolean status, String custName, String custNo, int proId,
+    public static void BillPageMain(Stage primaryStage, boolean status, String custName, String custNo, int proId,
                                     String proName, int proQuantity, double proPrice, double totalPrice)
     {
         Date today = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         String strDate = formatter.format(today);
 
-        Stage window = new Stage();
-        window.setTitle("Billing Page");
-        window.initModality(Modality.APPLICATION_MODAL);
+        //Stage window = new Stage();
+        primaryStage.setTitle("Billing Page");
+        //window.initModality(Modality.APPLICATION_MODAL);
 
         if(status)
         {
@@ -110,7 +110,7 @@ public class BillPage
             closeButton.setPrefWidth(100);
             closeButton.setPrefHeight(20);
             closeButton.setOnAction(e -> {
-                window.close();
+                Homepage.setHomePage(primaryStage);
             });
 
             VBox layoutMain = new VBox(5);
@@ -121,9 +121,9 @@ public class BillPage
             Scene scene = new Scene(layoutMain, 800, 800);
             scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
-            window.setScene(scene);
-            window.initStyle(StageStyle.UNDECORATED);
-            window.showAndWait();
+            primaryStage.setScene(scene);
+            //window.initStyle(StageStyle.UNDECORATED);
+            primaryStage.show();
 
         }
 
@@ -135,7 +135,7 @@ public class BillPage
             closeButton.setPrefWidth(100);
             closeButton.setPrefHeight(20);
             closeButton.setOnAction(e -> {
-                window.close();
+                SellPage.SellPageMain(primaryStage);
             });
 
             VBox layout = new VBox(100);
@@ -145,9 +145,9 @@ public class BillPage
             Scene scene = new Scene(layout, 800, 800);
             scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
-            window.setScene(scene);
-            window.initStyle(StageStyle.UNDECORATED);
-            window.showAndWait();
+            primaryStage.setScene(scene);
+            //window.initStyle(StageStyle.UNDECORATED);
+            primaryStage.show();
         }
     }
 }

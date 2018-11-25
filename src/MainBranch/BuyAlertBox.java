@@ -10,11 +10,11 @@ import javafx.scene.Scene;
 
 public class BuyAlertBox
 {
-    public static void showUpdate(boolean answer, int id, String name, int quantity, double totalPrice)
+    public static void showUpdate(Stage primaryStage, boolean answer, int id, String name, int quantity, double totalPrice)
     {
-        Stage window = new Stage();
-        window.setTitle("Update");
-        window.initModality(Modality.APPLICATION_MODAL);
+        //Stage window = new Stage();
+        primaryStage.setTitle("Update");
+        //window.initModality(Modality.APPLICATION_MODAL);
 
         if(answer)
         {
@@ -31,7 +31,9 @@ public class BuyAlertBox
             priceLabel.setId("input-label");
 
             Button okay = new Button("Okay");
-            okay.setOnAction(e -> window.close());
+            okay.setOnAction(e -> {
+                Homepage.setHomePage(primaryStage);
+            });
 
             VBox layoutTop = new VBox(20);
             layoutTop.getChildren().add(status);
@@ -50,7 +52,7 @@ public class BuyAlertBox
             Scene scene = new Scene(layoutMain, 800, 800);
             scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
-            window.setScene(scene);
+            primaryStage.setScene(scene);
         }
 
         else
@@ -58,7 +60,9 @@ public class BuyAlertBox
             Label status = new Label("Update Failed");
 
             Button okay = new Button("Okay");
-            okay.setOnAction(e -> window.close());
+            okay.setOnAction(e -> {
+                BuyPage.BuyPageMain(primaryStage);
+            });
 
             VBox layoutMain = new VBox(20);
             layoutMain.getChildren().addAll(status, okay);
@@ -68,11 +72,11 @@ public class BuyAlertBox
             Scene scene = new Scene(layoutMain, 800, 800);
             scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
-            window.setScene(scene);
+            primaryStage.setScene(scene);
         }
 
 
-        window.initStyle(StageStyle.UNDECORATED);
-        window.showAndWait();
+        //window.initStyle(StageStyle.UNDECORATED);
+        primaryStage.show();
     }
 }
