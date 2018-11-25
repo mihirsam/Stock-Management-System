@@ -37,7 +37,7 @@ public class Homepage
         buyButton.setPrefHeight(50);
         buyButton.setPrefWidth(300);
         buyButton.setOnAction(e -> {
-            BuyPage.BuyPageMain();
+            BuyPage.BuyPageMain(primaryStage);
         });
 
 
@@ -45,7 +45,7 @@ public class Homepage
         sellButton.setPrefHeight(50);
         sellButton.setPrefWidth(300);
         sellButton.setOnAction( e-> {
-            SellPage.SellPageMain();
+            SellPage.SellPageMain(primaryStage);
             });
 
         aboutButton = new Button("About");
