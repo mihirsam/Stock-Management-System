@@ -22,12 +22,12 @@ import java.sql.ResultSet;
 
 public class MainDatabaseView
 {
-    public static void showTable() throws Exception
+    public static void showTable(Stage primaryStage) throws Exception
     {
         try
         {
-            Stage window = new Stage();
-            window.initModality(Modality.APPLICATION_MODAL);
+            //Stage window = new Stage();
+            //window.initModality(Modality.APPLICATION_MODAL);
 
             //main label
             Label labelTitle = new Label("MAIN DATABASE");
@@ -61,7 +61,13 @@ public class MainDatabaseView
             Button backButton = new Button("Back");
             backButton.setPrefWidth(100);
             backButton.setPrefHeight(20);
-            backButton.setOnAction(e -> window.close());
+            backButton.setOnAction(e -> {
+                try {
+                    ViewPage.viewPageMain(primaryStage);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+            });
 
             //setting layout
             VBox vBox = new VBox(30);
@@ -69,11 +75,11 @@ public class MainDatabaseView
             vBox.setAlignment(Pos.CENTER);
 
             Scene scene = new Scene(vBox, 800, 800);
-            window.setScene(scene);
+            primaryStage.setScene(scene);
 
             scene.getStylesheets().add("MainBranch/Stylesheet/tableviewStyle.css");
-            window.initStyle(StageStyle.UNDECORATED);
-            window.showAndWait();
+            //primaryStage.initStyle(StageStyle.UNDECORATED);
+            primaryStage.show();
         }
 
         catch (Exception e)
