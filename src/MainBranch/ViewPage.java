@@ -10,13 +10,13 @@ import javafx.scene.Scene;
 
 public class ViewPage
 {
-    public static void viewPageMain() throws java.lang.Exception
+    public static void viewPageMain(Stage primaryStage) throws java.lang.Exception
     {
         try
         {
-            Stage window = new Stage();
-            window.setTitle("View Page");
-            window.initModality(Modality.APPLICATION_MODAL);
+            //Stage window = new Stage();
+            primaryStage.setTitle("View Page");
+            //window.initModality(Modality.APPLICATION_MODAL);
 
             Label title = new Label("VIEW PAGE");
 
@@ -60,7 +60,7 @@ public class ViewPage
             backButton.setPrefHeight(20);
             backButton.setPrefWidth(100);
             backButton.setOnAction(e -> {
-                window.close();
+                Homepage.setHomePage(primaryStage);
             });
 
             VBox layoutMain = new VBox(20);
@@ -75,9 +75,9 @@ public class ViewPage
             Scene scene = new Scene(layoutMain, 800, 800);
             scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
-            window.setScene(scene);
-            window.initStyle(StageStyle.UNDECORATED);
-            window.showAndWait();
+            primaryStage.setScene(scene);
+            //primaryStage.initStyle(StageStyle.UNDECORATED);
+            primaryStage.show();
         }
 
         catch(java.lang.Exception e)

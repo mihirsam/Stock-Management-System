@@ -8,17 +8,12 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.scene.Scene;
 
-public class Homepage extends Application {
+public class Homepage
+{
+    static Button viewButton, buyButton, sellButton, aboutButton, exitButton;
 
-    Stage window;
-    Button viewButton, buyButton, sellButton, aboutButton, exitButton;
-
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-
-    public void start(Stage primaryStage) {
+    public static void setHomePage(Stage primaryStage)
+    {
         Label labelTitle = new Label();
         labelTitle.setText("Inventory Management System");
         labelTitle.setAlignment(Pos.CENTER);
@@ -29,7 +24,7 @@ public class Homepage extends Application {
 
         viewButton.setOnAction( e-> {
             try {
-                ViewPage.viewPageMain();
+                ViewPage.viewPageMain(primaryStage);
             }
             catch(Exception el)
             {
@@ -64,7 +59,7 @@ public class Homepage extends Application {
         exitButton.setOnAction(e -> {
             if(ExitConfirmMain.ExitConfirm())
             {
-                window.close();
+                primaryStage.close();
             }
         });
 
@@ -84,13 +79,13 @@ public class Homepage extends Application {
         Scene scene = new Scene(layoutMain, 800, 800);
         scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
 
-        window = primaryStage;
-        window.setTitle("Homepage");
-        window.setScene(scene);
+        //window = primaryStage;
+        primaryStage.setTitle("Homepage");
+        primaryStage.setScene(scene);
         //window.setFullScreen(true);
         //window.setMaximized(true);
-        window.initStyle(StageStyle.UNDECORATED);
-        window.show();
+        //primaryStage.initStyle(StageStyle.UNDECORATED);
+        primaryStage.show();
     }
 
 }
