@@ -51,7 +51,9 @@ public class Homepage
         aboutButton = new Button("About");
         aboutButton.setPrefHeight(50);
         aboutButton.setPrefWidth(300);
-        //aboutButton.setOnAction();
+        aboutButton.setOnAction(e -> {
+            AboutPage.setAboutPage(primaryStage);
+        });
 
         exitButton = new Button("Exit");
         exitButton.setPrefHeight(50);

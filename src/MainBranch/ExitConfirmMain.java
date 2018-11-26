@@ -3,6 +3,7 @@ package MainBranch;
 import javafx.application.*;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
+import javafx.scene.image.Image;
 import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
@@ -47,6 +48,7 @@ public class ExitConfirmMain
 
         window.setScene(scene);
         window.initStyle(StageStyle.UNDECORATED);
+        window.getIcons().add(new Image(ExitConfirmMain.class.getResourceAsStream("Stylesheet/Images/icon.png")));
         window.showAndWait();
 
         return answer;

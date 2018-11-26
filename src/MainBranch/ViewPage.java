@@ -25,7 +25,7 @@ public class ViewPage
             viewDatabase.setPrefWidth(300);
             viewDatabase.setOnAction(e -> {
                 try {
-                    MainDatabaseView.showTable();
+                    MainDatabaseView.showTable(primaryStage);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
@@ -36,7 +36,7 @@ public class ViewPage
             viewSales.setPrefWidth(300);
             viewSales.setOnAction(e -> {
                 try{
-                    SalesDatabaseView.showTable();
+                    SalesDatabaseView.showTable(primaryStage);
                 }
                 catch (Exception el)
                 {
@@ -49,7 +49,7 @@ public class ViewPage
             viewBuy.setPrefWidth(300);
             viewBuy.setOnAction(e -> {
                 try{
-                    BuyDatabaseView.showTable();
+                    BuyDatabaseView.showTable(primaryStage);
                 } catch (Exception el)
                 {
                     el.printStackTrace();

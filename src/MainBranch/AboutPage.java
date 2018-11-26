@@ -32,6 +32,7 @@ public class AboutPage
         settingButton.setPrefHeight(25);
         settingButton.setOnAction(e -> {
             //set address of database
+            SettingMain.setSetting(primaryStage);
         });
 
         Button backButton = new Button("Back");

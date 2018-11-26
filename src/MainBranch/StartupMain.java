@@ -1,6 +1,7 @@
 package MainBranch;
 
 import javafx.application.Application;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -14,6 +15,7 @@ public class StartupMain extends Application
     {
         primaryStage.initStyle(StageStyle.UNDECORATED);
         Homepage.setHomePage(primaryStage);
+        primaryStage.getIcons().add(new Image(StartupMain.class.getResourceAsStream("Stylesheet/Images/icon.png")));
     }
 }
 

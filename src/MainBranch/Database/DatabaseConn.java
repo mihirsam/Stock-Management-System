@@ -7,14 +7,15 @@ import java.util.Date;
 
 public class DatabaseConn
 {
+    public static String dbPath = "D:\\study_materials\\Java\\Resources\\Database\\smsDemo.accdb";
+
     public static ResultSet MainDatabase() throws SQLException
     {
         ResultSet errorRS;
-
         try
         {
             Connection conn;
-            conn = DriverManager.getConnection("jdbc:ucanaccess://D:\\study_materials\\Java\\Resources\\Database\\smsDemo.accdb");
+            conn = DriverManager.getConnection("jdbc:ucanaccess://"+dbPath);
 
             Statement stmt;
             stmt = conn.createStatement();
@@ -39,7 +40,7 @@ public class DatabaseConn
         try
         {
             Connection conn;
-            conn = DriverManager.getConnection("jdbc:ucanaccess://D:\\study_materials\\Java\\Resources\\Database\\smsDemo.accdb");
+            conn = DriverManager.getConnection("jdbc:ucanaccess://"+dbPath);
 
             Statement stmt;
             stmt = conn.createStatement();
@@ -64,7 +65,7 @@ public class DatabaseConn
         try
         {
             Connection conn;
-            conn = DriverManager.getConnection("jdbc:ucanaccess://D:\\study_materials\\Java\\Resources\\Database\\smsDemo.accdb");
+            conn = DriverManager.getConnection("jdbc:ucanaccess://"+dbPath);
 
             Statement stmt;
             stmt = conn.createStatement();
@@ -97,7 +98,7 @@ public class DatabaseConn
             java.sql.Date sqlDate = new java.sql.Date( date.getTime() );
 
             Connection conn;
-            conn = DriverManager.getConnection("jdbc:ucanaccess://D:\\study_materials\\Java\\Resources\\Database\\smsDemo.accdb");
+            conn = DriverManager.getConnection("jdbc:ucanaccess://"+dbPath);
 
             Statement stmt;
             stmt = conn.createStatement();
@@ -167,7 +168,7 @@ public class DatabaseConn
             java.sql.Date sqlDate = new java.sql.Date( date.getTime() );
 
             Connection conn;
-            conn = DriverManager.getConnection("jdbc:ucanaccess://D:\\study_materials\\Java\\Resources\\Database\\smsDemo.accdb");
+            conn = DriverManager.getConnection("jdbc:ucanaccess://"+dbPath);
 
             Statement stmt;
             stmt = conn.createStatement();
