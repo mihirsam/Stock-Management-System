@@ -17,13 +17,18 @@
 }
 
 #input-label{
-    -fx-font-size: 20;
+    -fx-font-size: 20px;
 }
 
 #title-label{
-    -fx-font-size: 25;
+    -fx-font-size: 25px;
 }
 
 #column-head{
+    -fx-font-size: 25px;
+}
+
+#about-text{
+    -fx-font-family: "Constantia";
     -fx-font-size: 25px;
 }
