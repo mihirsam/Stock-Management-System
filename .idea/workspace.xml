@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaFXApp" />
+    </artifacts-to-build>
+  </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/MainBranch/Homepage.java" line="43" />
-    <bookmark url="file://$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" line="36" />
+    <bookmark url="file://$PROJECT_DIR$/src/MainBranch/Homepage.java" line="44" />
+    <bookmark url="file://$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" line="38" />
+    <bookmark url="file://$PROJECT_DIR$/src/MainBranch/ViewPage.java" line="17" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -18,11 +23,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stock-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stock-Management-System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Stock_Management_System_jar/Stock-Management-System.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyDatabaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyDatabaseView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/DatabaseConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/DatabaseConn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/ViewDatabaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/ViewDatabaseClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ExitConfirmMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ExitConfirmMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/MainDatabaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/MainDatabaseView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductBuyDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductBuyDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductMainDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductMainDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductSalesDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductSalesDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SalesDatabaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SalesDatabaseView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/10.jpg" afterDir="false" />
@@ -41,30 +58,20 @@
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/tableviewStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/tableviewStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ViewPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ViewPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/BillPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BillPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/BuyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/BuyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/AboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/AboutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Database/ViewDatabaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Database/ViewDatabaseClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainBranch/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/SellPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/SellPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/ProductBuyDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ProductBuyDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/ProductMainDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ProductMainDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/ProductSalesDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ProductSalesDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/StartupMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/StartupMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/tableviewStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/tableviewStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainBranch/ViewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ViewPage.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -117,92 +124,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1271929131">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="25" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="3" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="css" value="1" />
-          <entry key="java" value="14" />
-          <entry key="jpg" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="CSS" value="1" />
-          <entry key="Image" value="10" />
-          <entry key="JAVA" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="388" />
-          <entry key="java" value="11340" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="388" />
-          <entry key="JAVA" value="11340" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-    </session>
-    <session id="-2097548860">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="111" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="111" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.types.open" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
@@ -211,32 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/Homepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBranch/ViewPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="1040">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/SellPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2780">
-              <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+            <state relative-caret-position="2060">
+              <caret line="112" column="39" selection-start-line="111" selection-start-column="8" selection-end-line="112" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,8 +156,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/BillPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1720">
-              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            <state relative-caret-position="2020">
+              <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="110" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/MainDatabaseView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/AboutPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -269,19 +214,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="-480">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
+        <entry file="file://$PROJECT_DIR$/src/MainBranch/SettingMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="620">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -295,6 +243,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Stylesheet" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -303,6 +252,7 @@
     <findStrings>
       <find>6</find>
       <find>system</find>
+      <find>proId</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -320,29 +270,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MainBranch/homepageStyle.css" />
-        <option value="$PROJECT_DIR$/src/MainBranch/SellPage.java" />
-        <option value="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" />
-        <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" />
-        <option value="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" />
-        <option value="$PROJECT_DIR$/src/MainBranch/Homepage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/ProductMainDB.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/ProductMainDB.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/tableviewStyle.css" />
+        <option value="$PROJECT_DIR$/src/MainBranch/ProductSalesDB.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/tableviewStyle.css" />
+        <option value="$PROJECT_DIR$/src/MainBranch/ProductBuyDB.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Database/ViewDatabaseClient.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/StartupMain.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/SalesDatabaseView.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/MainDatabaseView.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/ViewPage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/BuyDatabaseView.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/SellPage.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/BuyPage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java" />
         <option value="$PROJECT_DIR$/src/MainBranch/BillPage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/StartupMain.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Homepage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/AboutPage.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java" />
+        <option value="$PROJECT_DIR$/src/MainBranch/SettingMain.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="81" />
-    <option name="width" value="1221" />
-    <option name="height" value="663" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -355,7 +313,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,13 +323,12 @@
             <path>
               <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stock-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stock-Management-System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MainBranch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
@@ -382,6 +338,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -395,21 +352,25 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539007608095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543268126777" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/MainBranch/Images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Xenon\Study_Stuffs\Projects\Stock-Management-System\src\MainBranch\Stylesheet" />
       <recent name="$PROJECT_DIR$/src/MainBranch/Stylesheet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xenon\Study_Stuffs\Projects\Stock-Management-System\src\MainBranch\Stylesheet\Images" />
+      <recent name="D:\Xenon\Study_Stuffs\Projects\Stock-Management-System" />
+      <recent name="$PROJECT_DIR$/src/MainBranch/Images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -424,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Homepage">
+  <component name="RunManager" selected="Application.StartupMain">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -437,8 +398,22 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainBranch.Database.DatabaseConn" />
+      <module name="Stock-Management-System" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainBranch.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -473,6 +448,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartupMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainBranch.StartupMain" />
+      <module name="Stock-Management-System" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainBranch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -488,7 +477,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -499,11 +488,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -511,10 +500,14 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Homepage" />
+      <item itemvalue="Application.DatabaseConn" />
+      <item itemvalue="Application.StartupMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartupMain" />
         <item itemvalue="Application.Homepage" />
+        <item itemvalue="Application.DatabaseConn" />
       </list>
     </recent_temporary>
   </component>
@@ -550,26 +543,50 @@
       <workItem from="1541773803944" duration="1087000" />
       <workItem from="1541775592380" duration="196000" />
       <workItem from="1541777851782" duration="1716000" />
+      <workItem from="1541873451066" duration="12365000" />
+      <workItem from="1541934171728" duration="494000" />
+      <workItem from="1541934678858" duration="45000" />
+      <workItem from="1541934767591" duration="3365000" />
+      <workItem from="1541938155470" duration="8104000" />
+      <workItem from="1541951573942" duration="3762000" />
+      <workItem from="1542027160943" duration="330000" />
+      <workItem from="1542064528221" duration="1163000" />
+      <workItem from="1542107612858" duration="7065000" />
+      <workItem from="1542114978330" duration="1660000" />
+      <workItem from="1542146765367" duration="4912000" />
+      <workItem from="1542153901029" duration="1399000" />
+      <workItem from="1542236049208" duration="1402000" />
+      <workItem from="1542320291923" duration="55000" />
+      <workItem from="1542346539139" duration="160000" />
+      <workItem from="1542347474151" duration="310000" />
+      <workItem from="1542403887408" duration="98000" />
+      <workItem from="1542988157712" duration="138000" />
+      <workItem from="1543024897004" duration="1130000" />
+      <workItem from="1543166122259" duration="106000" />
+      <workItem from="1543166562741" duration="1369000" />
+      <workItem from="1543169622880" duration="2859000" />
+      <workItem from="1543256662250" duration="8896000" />
+      <workItem from="1543266762023" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29879000" />
+    <option name="totallyTimeSpent" value="92435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.39712557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32954547" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38923076" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38863286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -579,10 +596,12 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32615384" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3276923" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32565284" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32917318" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -593,41 +612,46 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.32272726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32954547" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3900156" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32761312" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32917318" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38863286" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39937598" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Profiler" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" weight="0.3276923" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32565284" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,9 +659,6 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -674,31 +695,74 @@
     <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/Images/7.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java">
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/ProductSalesDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="100">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/ProductBuyDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/ProductMainDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServletTomcatTutorial.iml" />
+    <entry file="file://$PROJECT_DIR$/Stock-Management-System.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Database/ViewDatabaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/Homepage.java">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/tableviewStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/ViewPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="900">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyDatabaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/SalesDatabaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/StartupMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="116" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -707,8 +771,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Homepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -717,18 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/SellPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2780">
-          <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="2060">
+          <caret line="112" column="39" selection-start-line="111" selection-start-column="8" selection-end-line="112" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,18 +801,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/BillPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1720">
-          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        <state relative-caret-position="2020">
+          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="110" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/MainDatabaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/BuyAlertBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css">
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/AboutPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="660">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/SettingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -758,7 +873,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>JavaFXApp</last-edited>
+          <last-edited>Stock-Management-System:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -771,7 +886,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -794,7 +909,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -811,7 +926,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -831,7 +945,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javafx-swt</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
