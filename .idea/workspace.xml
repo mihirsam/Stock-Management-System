@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JavaFXApp" />
+      <artifact name="Stock-Management-System:jar" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -12,67 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stock-Management-System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jnlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Stock_Management_System_jar/Stock-Management-System.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BillPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyAlertBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyDatabaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyDatabaseView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/BuyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/DatabaseConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/DatabaseConn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/ViewDatabaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Database/ViewDatabaseClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ExitConfirmMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ExitConfirmMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Homepage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/MainDatabaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/MainDatabaseView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductBuyDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductBuyDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductMainDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductMainDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductSalesDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ProductSalesDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SalesDatabaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SalesDatabaseView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/SellPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/Images/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/tableviewStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/Stylesheet/tableviewStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ViewPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stock-Management-System/MainBranch/ViewPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/AboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/AboutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Database/ViewDatabaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Database/ViewDatabaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ExitConfirmMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/ProductBuyDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ProductBuyDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/ProductMainDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ProductMainDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/ProductSalesDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ProductSalesDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/StartupMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/StartupMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/homepageStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/Stylesheet/tableviewStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/Stylesheet/tableviewStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBranch/ViewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBranch/ViewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Stock_Management_System_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Stock_Management_System_jar.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="240">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -313,22 +253,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stock-Management-System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stock-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stock-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stock-Management-System" type="b2602c69:ProjectViewProjectNode" />
@@ -339,10 +270,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/out/artifacts" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -567,16 +498,17 @@
       <workItem from="1543169622880" duration="2859000" />
       <workItem from="1543256662250" duration="8896000" />
       <workItem from="1543266762023" duration="1369000" />
+      <workItem from="1543271553511" duration="1120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92435000" />
+    <option name="totallyTimeSpent" value="93555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.27155825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32954547" />
       <window_info id="Designer" order="3" />
@@ -586,7 +518,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38863286" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38863286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -859,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBranch/Database/DatabaseConn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="240">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
