@@ -28,6 +28,7 @@
 
 ## Authors
 - [Mihir](https://github.com/mihirsam)
+
 See also the list of [contributors](https://github.com/mihirsam/Stock-Management-System/graphs/contributors) who participated in this project.
 
 ## Acknowledgments
